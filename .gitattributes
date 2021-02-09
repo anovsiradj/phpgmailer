@@ -1,0 +1,5 @@
+/.env*	export-ignore
+README.md	export-ignore
+
+/notes/	export-ignore
+/example/	export-ignore

@@ -1,0 +1,31 @@
+{
+    "name": "anovsiradj/phpgmailer",
+    "description": "PHPMailer but only for GMail",
+    "version": "0.0.1",
+    "type": "library",
+    "license": "ISC",
+    "config": {
+        "vendor-dir": "php_packages"
+    },
+    "autoload": {
+        "psr-4": {
+            "anovsiradj\\PHPGMailer\\": "classes/"
+        }
+    },
+    "require-dev": {
+        "php": ">=7.4",
+        "php-di/php-di": "^6.3",
+        "symfony/var-dumper": "^5.2",
+        "filp/whoops": "^2.9",
+        "symfony/dotenv": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "Mayendra Costanov (anovsiradj)",
+            "email": "anov.siradj22@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "@stable"
+    }
+}
